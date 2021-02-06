@@ -20,5 +20,8 @@
     "@drizzle/store": "^1.5.3",
     "openzeppelin-solidity": "^2.1.1",
     "vue-toasted": "^1.1.28"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.10"
   }
 }

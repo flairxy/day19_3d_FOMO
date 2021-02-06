@@ -1,6 +1,4 @@
-import SimpleStorage from "./contracts/SimpleStorage.json";
-import ComplexStorage from "./contracts/ComplexStorage.json";
-import TutorialToken from "./contracts/TutorialToken.json";
+import Fomo3D from "./contracts/Fomo3D.json";
 
 const options = {
   web3: {
@@ -10,9 +8,9 @@ const options = {
       url: "ws://127.0.0.1:9545",
     },
   },
-  contracts: [SimpleStorage, ComplexStorage, TutorialToken],
+  contracts: [Fomo3D],
   events: {
-    SimpleStorage: ["StorageSet"],
+    // SimpleStorage: ["StorageSet"],
   },
   polls: {
     accounts: 15000,
